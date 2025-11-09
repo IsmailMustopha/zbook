@@ -18,7 +18,7 @@ await connectDB()
 await connectCloudinary()
 
 const allowedOrigins = [
-  "http://localhost:5173" || "https://zbook-frontend.onrender.com/",
+  "https://zbook-frontend.onrender.com/"
 ]; 
 
 app.use(express.json());
